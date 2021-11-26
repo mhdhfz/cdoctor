@@ -1,6 +1,6 @@
 # cdoctor
 
-A new Flutter project.
+A mobile application for patient get appointment to consult with the doctor.
 
 ## Getting Started
 
