@@ -3,6 +3,7 @@ import 'package:cdoctor/profile/profile.dart';
 import 'package:cdoctor/appointment/appointment.dart';
 import 'package:cdoctor/bloodpressure/bloodpressure.dart';
 import 'package:cdoctor/home/home.dart';
+import 'package:cdoctor/record/record.dart';
 
 var appRoutes = {
   '/': (context) => const HomeScreen(),
@@ -10,4 +11,5 @@ var appRoutes = {
   '/profile': (context) => const ProfileScreen(),
   '/appointment': (context) => const AppointmentScreen(),
   '/bloodpressure': (context) => const BloodPressure(),
+  '/record': (context) => const RecordScreen(),
 };

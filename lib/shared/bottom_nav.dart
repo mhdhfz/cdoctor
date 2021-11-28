@@ -13,21 +13,21 @@ class BottomNavBar extends StatelessWidget {
             FontAwesomeIcons.calendarCheck,
             size: 20,
           ),
-          label: 'Appointment'
+          label: 'appointment'
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FontAwesomeIcons.tint,
+            FontAwesomeIcons.notesMedical,
             size: 20,
           ),
-          label: 'Blood Pressure'
+          label: 'medical record'
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FontAwesomeIcons.infoCircle,
+            FontAwesomeIcons.userCircle,
             size: 20,
           ),
-          label: 'about'
+          label: 'profile'
         ),
       ],
       fixedColor: Colors.deepOrange[200],
@@ -36,10 +36,10 @@ class BottomNavBar extends StatelessWidget {
           case 0:
             break;
           case 1:
-            Navigator.pushNamed(context, '/bloodpressure');
+            Navigator.pushNamed(context, '/record');
             break;
-          case 3:
-            Navigator.pushNamed(context, '/about');
+          case 2:
+            Navigator.pushNamed(context, '/profile');
             break;
           default:
         }
