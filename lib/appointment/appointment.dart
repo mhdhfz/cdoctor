@@ -1,3 +1,4 @@
+import 'package:cdoctor/shared/bottom_nav.dart';
 import 'package:flutter/material.dart';
 
 class AppointmentScreen extends StatelessWidget {
@@ -5,8 +6,8 @@ class AppointmentScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      bottomNavigationBar: BottomNavBar(),
     );
   }
 }
