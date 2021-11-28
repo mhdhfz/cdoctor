@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "379472252584",
+    "project_id": "cdoctor-26901",
+    "storage_bucket": "cdoctor-26901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379472252584:android:3662aadfd1a040cee97c9d",
+        "android_client_info": {
+          "package_name": "my.mhdhfz.cdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379472252584-g65kuh8jrcbcjohsunckas519cpmr2h2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.mhdhfz.cdoctor",
+            "certificate_hash": "ccf106ec859263353eba2794614834069cfbee7a"
+          }
+        },
+        {
+          "client_id": "379472252584-mv6mfh83svitcmpj0rd3ro8bk31n0e78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHEdYEqvIKnP2uUb0FQzjAWEwNSW9MQeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379472252584-mv6mfh83svitcmpj0rd3ro8bk31n0e78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
