@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:cdoctor/about/about.dart';
 import 'package:cdoctor/profile/profile.dart';
 import 'package:cdoctor/appointment/appointment.dart';
